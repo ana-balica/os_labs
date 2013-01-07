@@ -9,7 +9,7 @@ For the OS (Operating Systems) class, I as student of Technical University of Mo
 How do I see all the labworks?
 -------------------------------
 
-Totally there are 6 labworks (the last 2 are united). Those are stored on braches given the template name `lab#number`.
+Totally there are 6 labworks (the last 2 are united). Those are stored on braches given the template name `lab#number`. The descriptions for each lab can be found in a `.txt` file called **Report**.
 
 
 *To all my groupmates* - don't dare to clone my repos :D
