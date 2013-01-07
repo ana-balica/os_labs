@@ -1,15 +1,25 @@
-OS labworks
+OS labwork#3
 =============
 
-What is this?
----------------
+Goals
+------
+Provide the ability to load a task
 
-For the OS (Operating Systems) class, I as student of Technical University of Moldova Anglophone Department of Computer Science, am keeping all my laboratory work here. The repo is made available to my teacher in order to enhance my work and to evaluate the results.
+In the last labwork, we implemented a command prompt, we need to be able to execute commands in it. This means that when we type `hello` for example, your OS should execute the `cmd_hello` function.
 
-How do I see all the labworks?
--------------------------------
+Challenges accepted
+--------------------
+1.   Load a task without ifs or switches
+     + Find a way to execute dynamically the function which the user typed.
+2.   Pass parameters to your commands
+     + Your kernel must pass command parameters to the command function, this means that the command accepts a char* as a parameter. Your kernel must pass command parameters to the command function, this means that the command accepts a char* as a parameter. To demonstrate this you will need to write a sample comand which greets the user. When I will type `greet Andrei`, the command must output `hello, Andrei!`
 
-Totally there are 6 labworks (the last 2 are united). Those are stored on braches given the template name `lab#number`.
+Prerequisites and How to run it
+--------------------------------
+[lab#1 branch README](https://github.com/ana-balica/os_labs/tree/lab%231)
 
+Resources
+-----------
+[Prerequisites](http://alisnic.net/blog/os-class-lab1/)
 
-*To all my groupmates* - don't dare to clone my repos :D
+[Lab 3 instructions](http://alisnic.net/blog/os-class-lab3/)
