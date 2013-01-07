@@ -1,15 +1,26 @@
-OS labworks
-=============
+OS labwork#1
+============
 
-What is this?
----------------
+Goals
+------
+1.   Set up build environment
+2.   Launch hello world OS successfully with the message displayed on screen
 
-For the OS (Operating Systems) class, I as student of Technical University of Moldova Anglophone Department of Computer Science, am keeping all my laboratory work here. The repo is made available to my teacher in order to enhance my work and to evaluate the results.
+Prerequisites
+--------------
++ gcc
++ nasm
++ make
++ virtualbox with a DOS OS that boots from an image created by you
 
-How do I see all the labworks?
--------------------------------
+On a Linux OS do `sudo apt-get install build-essential nasm`.
 
-Totally there are 6 labworks (the last 2 are united). Those are stored on braches given the template name `lab#number`. The descriptions for each lab can be found in a `.md` file called **Report**.
+How to run it
+--------------
+1.   cd in the project directory
+2.   Run `make`
+3.   Run the DOS OS from your virtualbox
 
-
-*To all my groupmates* - don't dare to clone my repos :D
+Resources
+-----------
+[Lab 1 extended instructions](http://alisnic.net/blog/os-class-lab1/)
