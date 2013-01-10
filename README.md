@@ -12,11 +12,11 @@ Goals
 How it works:
 -------------
 After creating the tasks our OS does the following:
-	 + schedules those tasks - adds each task to an array (could be a more reliable data structure, like a queue), saves the register states by using a `setjmp`, initializes the stack pointer and the instruction pointer in order to point to your function.
-	 + runs the schedules - meanwhile all the tasks are scheduled to do their job, the scheduler starts by simply running the first task.
-	 + the first task is polite enough to give control to the OS and the OS saves the current state of your function, and switches to the next task. 
-	 + next task is called and again the same is happens to it (state saving) as to the first task
-	 + when again the first task will be given the opportunity to run, it will resume its work from the current state
++ schedules those tasks - adds each task to an array (could be a more reliable data structure, like a queue), saves the register states by using a `setjmp`, initializes the stack pointer and the instruction pointer in order to point to your function.
++ runs the schedules - meanwhile all the tasks are scheduled to do their job, the scheduler starts by simply running the first task.
++ the first task is polite enough to give control to the OS and the OS saves the current state of your function, and switches to the next task. 
++ next task is called and again the same is happens to it (state saving) as to the first task
++ when again the first task will be given the opportunity to run, it will resume its work from the current state
 
 This is how we have implemented cooperative multitasking.
 
